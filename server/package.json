@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@google-cloud/translate": "^8.0.3",
+    "@langchain/openai": "^0.0.13",
+    "axios": "^1.6.2",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "langchain": "^0.1.9",
+    "mongoose": "^7.6.3",
+    "nodemon": "^3.0.1",
+    "pdf-to-text": "^0.0.7",
+    "slugify": "^1.6.6"
+  }
+}

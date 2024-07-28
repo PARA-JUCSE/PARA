@@ -1,0 +1,116 @@
+.sum-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F3755C;
+    height: auto;
+    width: 80%;
+    border-radius: 20px;
+    padding: 0 2vw 3vh 2vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+}
+
+.sum-text-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vw;
+    background-color: #D25E52;
+    border-radius: 10px;
+    justify-content: stretch;
+    color: #091334;
+    border: none;
+    font-weight: 500;
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+}
+
+.sum-slider {
+    width: 60%;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #091334;
+    border-radius: 7vh;
+    margin: 3vh 0;
+    font-weight: 500;
+    color: #F3755C;
+    border: solid;
+    border-color: #D25E52;
+    border-width: 0.5vw;
+    font-size: x-large;
+}
+
+.sum-slider-item { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sum-btn {
+    border: solid;
+    border-color: #D25E52;
+    border-width: 0.5vw;
+    border-radius: 7vh;
+    width: 20%;
+    height: 9vh;
+    font-size: x-large;
+}
+
+
+.result-box {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D25E52;
+    border-radius: 10px;
+    justify-content: stretch;
+    color: #091334;
+    border: none;
+    font-weight: 500;
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+
+    padding-top: 2vh;
+    border: solid;
+    border-top: none;
+    font-weight: 500;
+    border-color: #F3755C;
+    border-radius: 0 0 15px 15px;
+    width: 75%;
+    padding: 1rem;
+    color:#091334;
+    margin-bottom: 10vh;
+    z-index: -1;
+    transition: opacity 0s, transform 0.3s ease-in-out;
+    text-align: left;
+    position: static;
+}
+
+.result-box.close {
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-200%);
+}
+
+.result-box.open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}

@@ -1,0 +1,20 @@
+.pst-btn {
+    background-color: #73C162;
+    padding: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    width: min-content;
+    height: 3rem;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.pst-btn h2 {
+    font-size: x-large;
+    font-weight: 700;
+    color: #091334;
+    margin: 0;
+}
